@@ -1,3 +1,6 @@
 [submodule "Data_Analysis"]
 	path = Data_Analysis
 	url = https://github.com/Edmi6163/Data_Analysis_part.git
+[submodule "Main_server_express"]
+	path = Main_server_express
+	url = https://github.com/Edmi6163/Main_server_express.git
