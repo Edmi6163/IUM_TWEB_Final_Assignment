@@ -4,3 +4,6 @@
 [submodule "Main_server_express"]
 	path = Main_server_express
 	url = https://github.com/Edmi6163/Main_server_express.git
+[submodule "HCI"]
+	path = HCI
+	url = https://github.com/Edmi6163/HCI.git
