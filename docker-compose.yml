@@ -1,0 +1,39 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgres:latest
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: mydatabase
+      POSTGRES_USER: myuser
+      POSTGRES_PASSWORD: mypassword
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./databaseschema:/docker-entrypoint-initdb.d
+
+  mongodb_credentials:
+    image: mongo:latest
+    ports:
+      - "27018:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: credential_password
+    volumes:
+      - mongodb_credentials_data:/data/db
+
+  mongodb_other_data:
+    image: mongo:latest
+    ports:
+      - "27019:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: other_data_password
+    volumes:
+      - mongodb_other_data_data:/data/db
+
+volumes:
+  postgres_data:
+  mongodb_credentials_data:
+  mongodb_other_data_data:
