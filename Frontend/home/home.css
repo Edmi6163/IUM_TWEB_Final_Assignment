@@ -1,0 +1,5 @@
+.form-switch .form-check-input:checked {
+  background-color: #ff0000; /* Rosso quando lo switch è attivato */
+  border-color: #ff0000;
+}
+
