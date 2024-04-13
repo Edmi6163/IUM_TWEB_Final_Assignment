@@ -7,3 +7,6 @@
 [submodule "HCI"]
 	path = HCI
 	url = https://github.com/Edmi6163/HCI.git
+[submodule "Spring_boot"]
+	path = Spring_boot
+	url = https://github.com/Edmi6163/Spring_boot_server.git
