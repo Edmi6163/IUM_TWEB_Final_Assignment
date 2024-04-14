@@ -33,6 +33,19 @@ services:
     volumes:
       - mongodb_other_data_data:/data/db
 
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: your_email@example.com
+      PGADMIN_DEFAULT_PASSWORD: your_password
+    ports:
+      - "5050:80"
+    depends_on:
+      - postgres
+    networks:
+      - default
+
 volumes:
   postgres_data:
   mongodb_credentials_data:
