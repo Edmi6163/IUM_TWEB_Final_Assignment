@@ -10,3 +10,6 @@
 [submodule "Spring_boot"]
 	path = Spring_boot
 	url = https://github.com/Edmi6163/Spring_boot_server.git
+[submodule "Flask_server"]
+	path = Flask_server
+	url = https://github.com/Edmi6163/Flask_server.git
