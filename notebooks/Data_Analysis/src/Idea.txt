@@ -1,0 +1,9 @@
+Some idea for data anylisis grupo by data frame
+
+
+    -the most player with the high market valuation ,and the most player with the low market valuation ,global and group by competition.
+    - how fast this player take market value in relationship with time.
+    - how fast this player lost  market value in relationship with time.
+    - The country's with most player with high market value.
+    - The country's with most player with low market value.
+    - The country;s with the m
