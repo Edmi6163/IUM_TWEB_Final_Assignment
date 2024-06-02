@@ -1,8 +1,8 @@
-version: '3'
-
 services:
   jupyter:
-    build: ./dockerfiles  # Percorso della directory contenente il Dockerfile
+    build:
+      context: .
+      dockerfile: ./Dockerfile
     ports:
       - "8888:8888"
     volumes:
