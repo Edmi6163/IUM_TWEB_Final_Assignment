@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.5.28)  4 JUL 2024 22:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.5.28)  5 JUL 2024 00:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -451,11 +451,7 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 
 
 
-Package lipsum Warning: Unknown language 'latin'. Hyphenation patterns for
-(lipsum)                'english' will be used instead.
-
-
-LaTeX Warning: Citation `Liao2016' on page 1 undefined on input line 51.
+LaTeX Warning: Citation `Liao2016' on page 1 undefined on input line 56.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fon
 ts/enc/dvips/base/8r.enc}
@@ -474,9 +470,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[2
-
-] (./Report.aux)
+[2] (./Report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -492,12 +486,12 @@ Package rerunfilecheck Warning: File `Report.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `Report.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  E2CF3047A19CC520F25F671063A06EDB;1231.
+(rerunfilecheck)             After:  F774B1FC25011966653CE94588D5B039;3870.
  ) 
 Here is how much of TeX's memory you used:
- 10604 strings out of 476076
- 168974 string characters out of 5793775
- 1951187 words of memory out of 5000000
+ 10624 strings out of 476076
+ 169224 string characters out of 5793775
+ 1952187 words of memory out of 5000000
  32580 multiletter control sequences out of 15000+600000
  588997 words of font info for 87 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -506,10 +500,10 @@ Here is how much of TeX's memory you used:
 texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/
 urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
 /usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Report.pdf (2 pages, 66445 bytes).
+Output written on Report.pdf (2 pages, 69830 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 500000)
+ 108 PDF objects out of 1000 (max. 8388607)
+ 93 compressed objects within 1 object stream
+ 36 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

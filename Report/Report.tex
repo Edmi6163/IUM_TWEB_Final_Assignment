@@ -30,32 +30,85 @@ As assignemnt we had to build a website that allows the user to  access data abo
 \tableofcontents
 
 \section{Introduction}
-section{Technical task: Backend}
+This is the report for the final assignmnet of the course of \textit{Tecnologie Web}, 
+in this report you will find the issues that we faced while developing in the project, how we managed github repositories, the database organization, the division of work and about front end and back end devlopment
+
+\section{Technical task: Database organization}
 \subsection{Solution}
-\lipsum[4] % Replace with your actual text
+As database organization we decide to split the data in 3 different databases, 2 mongodb and 1 postgresql \\
+One of the mongodb databse is used to store credential, in order to have a login system. \\ 
+The second mongodb databse is used to store data the changes often, as suggest in the pdf assignemnt, we decide to store data like: games,games events, games lineup and player valuation. \\
+In postgresql instead we decided to store data that doesn't change often, so these data are the competition name, player and games.
 
 \subsection{Issues}
-\lipsum[5] % Replace with your actual text
+While doing the database configuration we didn't faced too much issues with the mongodb part, instead with the postgresql we found implementation problem due to docker communication with spring boot, we solved this by installing locally postgres.
 
 \subsection{Requirements}
-\lipsum[6] % Replace with your actual text
+Database part should comply to the requirements
 
 \subsection{Limitations}
-\lipsum[7] % Replace with your actual text
+Database shouldn't have very high limitation, probably a limitation for the sql database is not being setted up on docker and so they aren't really portable.
+But generally the database are well structured and can be easily extended in the future.
 
-\subsection{Conclusions}
-\lipsum[8] % Replace with your actual text
 
 \subsection{Limitations}
 As it is now the assignment present some limitations, as an example there aren't any query to the Postgres database, even if the route are setted up is setted up. 
 The solution should be extensible as possible as the structure is simplier as possible, but can be improved in the future, also is implemented but not actually wokring an adapter for the query, inspired by this paper \cite{Liao2016}
 this can be a really big improvement to make also simplier to add new databases in the future. 
 
-\subsection{Conclusions}
-\lipsum[15]
+\section{Technical task: Front-end development}
 
-\subsection{Division of Work}
-Riccardo mostly worked on the front-end part,the structure of the Sql database, and data analysis. Francesco mostly on the back-end part, the structure of github repositories and mongodb database.
+\subsection{Solution}
+As front end we decided to use bootstrap + css where we show some dynamic data with the help of javascript.
+\subsection{Issues}
+The biggest issue faced during the developing of the front end was showing the data coming from the backed, and trying to make the website as accessible as possible.
+\subsection{Requirements}
+Front end should comply to the major part requirements, but at the moment it doesn't show query from postgresql database.
+\subsection{Limitations}
+The solution can be adapted to other requirements is the various div are really generic and can be easily changed.
+
+\section{Technical task: Chat system}
+\subsection{Solution}
+Chat system socket.io to be implemented, there rooms where user can join and talk. There is a room for each league.
+
+\subsection{Issues}
+The major challenge faced was to adapt it to the front end to make it user friendly and more equals to the rest of the website style, trying to reduce as much as possible the use of mouse.
+\subsection{Requirements}
+The chat system make the user able to communicate between them, and there is a room for each league, we suppose that this could be enough for each user. 
+
+\subsection{Limitations}
+The chat system as it it now, is really simple and it doesn't provide any kind of multemdia support like images or audio, this could be implemented in the future.
+And most important thing the message are not stored anyway so if a user join a room he can't see the previous messages.
+\section{Technical task: Back end development}
+\subsection{Solution}
+As backend development we decide to use an express server that will contains also the front end, and contains all the routing to the other 2 server
+Then we have the second express server that is used to communicate with the mongodb database.
+The last server is the Spring Boot one that is used to communicate with the postgresql database. 
+
+\subsection{Issues}
+We didn't faced a lot of issues implementing the backend part of the project, but communication between Springboot and Postgresql was a bit tricky but after a little bit of research we managed to solve it. 
+
+\subsection{Requirements}
+The requirements should be all accomplished, all the route technically are working and setted up, even if they are not utilized.
+
+\subsection{Limitations}
+The backend part is simple and intuitive to use, api docs tend to be complete and intuitive, maybe in the future we could add more Springboot route.
+
+\section{Conclusions}
+
+\section{Technical task: Data analysis}
+\subsection{Solution}
+To have jupyter notebook directly on the server we decided to export it in html and make it appear in the website as a standalone page.
+\subsection{Issues}
+We didn't find really any issue in this part, but actually we find it really fun.
+
+\subsection{Requirements}
+The graph are extensive and complete, and we tried to make it as easy as possible to understand it for the user. 
+\subsection{Limitations}
+I think that jupyter notebook are really powerful and we took advantage of it in the best way possible.
+
+\section{Division of Work}
+Riccardo mostly worked on the front-end part,the structure of the Sql database,chat system,data analysis. Francesco mostly on the back-end part, the structure of github repositories and mongodb database.
 
 \subsection{Extra Information}
 In github repository you can find more than 2 accounts that contributed to the various repository, Popper002 and Riccardo Oro are the same person, and in the same way Edmi6163 and Francesco Mauro are the same person, just one is the Github account and one is the Git account. 

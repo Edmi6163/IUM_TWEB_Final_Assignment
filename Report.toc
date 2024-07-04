@@ -1,11 +1,31 @@
 \contentsline {section}{\numberline {I}Introduction}{1}{section.1}%
-\contentsline {section}{\numberline {II}Solution}{1}{section.2}%
-\contentsline {subsection}{\numberline {\mbox {II-A}}Issues}{1}{subsection.2.1}%
-\contentsline {subsection}{\numberline {\mbox {II-B}}Requirements}{1}{subsection.2.2}%
-\contentsline {subsection}{\numberline {\mbox {II-C}}Limitations}{1}{subsection.2.3}%
-\contentsline {subsection}{\numberline {\mbox {II-D}}Conclusions}{1}{subsection.2.4}%
+\contentsline {section}{\numberline {II}Technical task: Database organization}{1}{section.2}%
+\contentsline {subsection}{\numberline {\mbox {II-A}}Solution}{1}{subsection.2.1}%
+\contentsline {subsection}{\numberline {\mbox {II-B}}Issues}{1}{subsection.2.2}%
+\contentsline {subsection}{\numberline {\mbox {II-C}}Requirements}{1}{subsection.2.3}%
+\contentsline {subsection}{\numberline {\mbox {II-D}}Limitations}{1}{subsection.2.4}%
 \contentsline {subsection}{\numberline {\mbox {II-E}}Limitations}{1}{subsection.2.5}%
-\contentsline {subsection}{\numberline {\mbox {II-F}}Conclusions}{2}{subsection.2.6}%
-\contentsline {subsection}{\numberline {\mbox {II-G}}Division of Work}{2}{subsection.2.7}%
-\contentsline {subsection}{\numberline {\mbox {II-H}}Extra Information}{2}{subsection.2.8}%
-\contentsline {section}{\numberline {III}Bibliography}{2}{section.3}%
+\contentsline {section}{\numberline {III}Technical task: Front-end development}{1}{section.3}%
+\contentsline {subsection}{\numberline {\mbox {III-A}}Solution}{1}{subsection.3.1}%
+\contentsline {subsection}{\numberline {\mbox {III-B}}Issues}{2}{subsection.3.2}%
+\contentsline {subsection}{\numberline {\mbox {III-C}}Requirements}{2}{subsection.3.3}%
+\contentsline {subsection}{\numberline {\mbox {III-D}}Limitations}{2}{subsection.3.4}%
+\contentsline {section}{\numberline {IV}Technical task: Chat system}{2}{section.4}%
+\contentsline {subsection}{\numberline {\mbox {IV-A}}Solution}{2}{subsection.4.1}%
+\contentsline {subsection}{\numberline {\mbox {IV-B}}Issues}{2}{subsection.4.2}%
+\contentsline {subsection}{\numberline {\mbox {IV-C}}Requirements}{2}{subsection.4.3}%
+\contentsline {subsection}{\numberline {\mbox {IV-D}}Limitations}{2}{subsection.4.4}%
+\contentsline {section}{\numberline {V}Technical task: Back end development}{2}{section.5}%
+\contentsline {subsection}{\numberline {\mbox {V-A}}Solution}{2}{subsection.5.1}%
+\contentsline {subsection}{\numberline {\mbox {V-B}}Issues}{2}{subsection.5.2}%
+\contentsline {subsection}{\numberline {\mbox {V-C}}Requirements}{2}{subsection.5.3}%
+\contentsline {subsection}{\numberline {\mbox {V-D}}Limitations}{2}{subsection.5.4}%
+\contentsline {section}{\numberline {VI}Conclusions}{2}{section.6}%
+\contentsline {section}{\numberline {VII}Technical task: Data analysis}{2}{section.7}%
+\contentsline {subsection}{\numberline {\mbox {VII-A}}Solution}{2}{subsection.7.1}%
+\contentsline {subsection}{\numberline {\mbox {VII-B}}Issues}{2}{subsection.7.2}%
+\contentsline {subsection}{\numberline {\mbox {VII-C}}Requirements}{2}{subsection.7.3}%
+\contentsline {subsection}{\numberline {\mbox {VII-D}}Limitations}{2}{subsection.7.4}%
+\contentsline {section}{\numberline {VIII}Division of Work}{2}{section.8}%
+\contentsline {subsection}{\numberline {\mbox {VIII-A}}Extra Information}{2}{subsection.8.1}%
+\contentsline {section}{\numberline {IX}Bibliography}{2}{section.9}%
