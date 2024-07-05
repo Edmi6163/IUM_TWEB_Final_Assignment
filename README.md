@@ -14,7 +14,7 @@ To run the project you need to have installed:
 ### How to clone the repository
 As the project use git submodules, you need to clone the repository with the following command:
 ```bash
-git clone --recurse-submodules https://github.com/Edmi6163/Eleonora_Francesco_Riccardo.git
+git clone --recurse-submodules https://github.com/Edmi6163/Mauro_Oro.git
 ```
 
 ### Docker
